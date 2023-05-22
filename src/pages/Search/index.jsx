@@ -39,10 +39,6 @@ const Search = () => {
     }
   }
 
-  console.log(rating, 'rating')
-  console.log(showData, 'showData')
-  console.log(filteredRatings,'filtered')
-
   return (
     <>
       <SearchForm getSeries={setSearch} setRating={setRating}/>
